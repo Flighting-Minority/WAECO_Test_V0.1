@@ -1,0 +1,87 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2026.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2026.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/Program Files/JetBrains/CLion 2026.1/bin/cmake/win/x64/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "C:/Program Files/JetBrains/CLion 2026.1/bin/mingw/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Users/Lenovo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Program Files/JetBrains/CLion 2026.1/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2026.1/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2026.2.0.1/bin/"
+      - "C:/mysql/mysql-26.7.0-winx64/bin/"
+      - "C:/Program Files/JetBrains/JetBrains Rider 2026.2.1/bin/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Tuanjie Cowork/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Tuanjie Cowork/cli/bin/win32-x64/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Tuanjie Cowork/app/resource/core/bin/win32-x64/"
+      - "C:/Users/Lenovo/AppData/Local/Programs/Tuanjie Cowork/hub/"
+      - "C:/Program Files/JetBrains/CLion 2026.1/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Program Files/JetBrains/CLion 2026.1/bin/mingw/bin/cc.com"
+      - "C:/Program Files/JetBrains/CLion 2026.1/bin/mingw/bin/cc.exe"
+      - "C:/Program Files/JetBrains/CLion 2026.1/bin/mingw/bin/cc"
+      - "C:/Program Files/JetBrains/CLion 2026.1/bin/mingw/bin/gcc.com"
+    found: "C:/Program Files/JetBrains/CLion 2026.1/bin/mingw/bin/gcc.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\JetBrains\\CLion 2026.1\\bin\\mingw\\bin"
+        - "C:\\windows\\system32"
+        - "C:\\windows"
+        - "C:\\windows\\System32\\Wbem"
+        - "C:\\windows\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\windows\\System32\\OpenSSH"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\WINDOWS\\System32\\OpenSSH"
+        - "C:\\Program Files\\JetBrains\\CLion 2026.1\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2026.2.0.1\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\JetBrains\\CLion 2026.1\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2026.1\\bin"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2026.2.0.1\\bin"
+        - "C:\\mysql\\mysql-26.7.0-winx64\\bin"
+        - "C:\\Program Files\\JetBrains\\JetBrains Rider 2026.2.1\\bin"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Tuanjie Cowork"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Tuanjie Cowork\\cli\\bin\\win32-x64"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Tuanjie Cowork\\app\\resource\\core\\bin\\win32-x64"
+        - "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Tuanjie Cowork\\hub"
+        - "C:\\Program Files\\JetBrains\\CLion 2026.1\\bin\\ninja\\win\\x64"
